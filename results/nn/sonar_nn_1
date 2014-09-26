@@ -1,0 +1,170 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 1
+Relation:     sonar-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0
+Instances:    146
+Attributes:   61
+              f1
+              f2
+              f3
+              f4
+              f5
+              f6
+              f7
+              f8
+              f9
+              f10
+              f11
+              f12
+              f13
+              f14
+              f15
+              f16
+              f17
+              f18
+              f19
+              f20
+              f21
+              f22
+              f23
+              f24
+              f25
+              f26
+              f27
+              f28
+              f29
+              f30
+              f31
+              f32
+              f33
+              f34
+              f35
+              f36
+              f37
+              f38
+              f39
+              f40
+              f41
+              f42
+              f43
+              f44
+              f45
+              f46
+              f47
+              f48
+              f49
+              f50
+              f51
+              f52
+              f53
+              f54
+              f55
+              f56
+              f57
+              f58
+              f59
+              f60
+              class
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -1.0293368354076415
+    Node 1    2.031360870808831
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    10.161512567702193
+    Attrib f1    3.5074592812784204
+    Attrib f2    6.11861033600633
+    Attrib f3    -5.401315924169869
+    Attrib f4    3.894014042367729
+    Attrib f5    -1.4974652230729746
+    Attrib f6    -0.38611314424192467
+    Attrib f7    -6.420099261910419
+    Attrib f8    0.6436701638199397
+    Attrib f9    2.3662838030033746
+    Attrib f10    -3.3690163502383053
+    Attrib f11    9.406433431270504
+    Attrib f12    7.281737030218489
+    Attrib f13    -1.1178374270652558
+    Attrib f14    -3.5135849665095873
+    Attrib f15    -3.238705240309792
+    Attrib f16    1.2250893291340224
+    Attrib f17    -6.091488846333148
+    Attrib f18    4.8239621506185815
+    Attrib f19    2.28295944151818
+    Attrib f20    0.6164462154337761
+    Attrib f21    2.922409614061418
+    Attrib f22    -1.1257277601095577
+    Attrib f23    -1.1995652157825607
+    Attrib f24    5.486932746677487
+    Attrib f25    -2.0144178403295343
+    Attrib f26    1.965568368569734
+    Attrib f27    0.21213310985663825
+    Attrib f28    -0.41056226939902846
+    Attrib f29    4.636080666574772
+    Attrib f30    5.680730672159254
+    Attrib f31    -7.288955407454297
+    Attrib f32    0.2507805679982143
+    Attrib f33    0.5574195167327284
+    Attrib f34    -1.8992277613370208
+    Attrib f35    3.2741220190355653
+    Attrib f36    -6.95648006613221
+    Attrib f37    -7.922907392574666
+    Attrib f38    6.757753755548244
+    Attrib f39    8.048377317737254
+    Attrib f40    -11.643848696514429
+    Attrib f41    0.7080236913415398
+    Attrib f42    4.515981710372251
+    Attrib f43    -0.9495496151254328
+    Attrib f44    7.780637119718878
+    Attrib f45    1.5789180894443122
+    Attrib f46    -1.2268493525037387
+    Attrib f47    0.6816455298168378
+    Attrib f48    8.778386981126108
+    Attrib f49    7.250745251585956
+    Attrib f50    -9.739693983537046
+    Attrib f51    5.865035972022657
+    Attrib f52    0.32231421216873024
+    Attrib f53    0.0368424238881284
+    Attrib f54    3.904757434556164
+    Attrib f55    -3.8402471208033515
+    Attrib f56    -2.3559515485103177
+    Attrib f57    -8.519037242395791
+    Attrib f58    6.04598507936083
+    Attrib f59    10.141036399125579
+    Attrib f60    -8.302860837718734
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 0.54 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.957 
+Mean absolute error                      0.039 
+Root mean squared error                  0.1487
+Relative absolute error                  7.8139 %
+Root relative squared error             29.7596 %
+Total Number of Instances              146     
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     sonar-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0-V
+Instances:     unknown (yet). Reading incrementally
+Attributes:   61
+
+=== Summary ===
+
+Correlation coefficient                  0.5153
+Mean absolute error                      0.2647
+Root mean squared error                  0.4788
+Total Number of Instances               62     
+

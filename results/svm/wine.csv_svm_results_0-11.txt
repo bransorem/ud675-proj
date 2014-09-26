@@ -1,0 +1,28 @@
+*********** Attributes (0-11) **********
+
+Linear Kernel
+Train errors: 
+0.589882031499
+Test errors: 
+0.537653218352
+
+Poly Kernel with degree 2
+Train errors: 
+8.24029155897
+Test errors: 
+3.09521543024
+
+RBF Kernel with degree 2
+Train errors: 
+0.19149448841
+Test errors: 
+0.519754319322
+
+RBF Kernel with degree 3
+Train errors: 
+0.19149448841
+Test errors: 
+0.519754319322
+
+Running times: 
+[17.417338132858276, 3438.343528985977, 1.495419979095459, 1.5124270915985107]

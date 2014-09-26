@@ -1,0 +1,87 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 2
+Relation:     wine-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0
+Instances:    3429
+Attributes:   12
+              fixed acidity
+              volatile acidity
+              citric acid
+              residual sugar
+              chlorides
+              free sulfur dioxide
+              total sulfur dioxide
+              density
+              pH
+              sulphates
+              alcohol
+              quality
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.09502785725921964
+    Node 1    0.8078491299289562
+    Node 2    -0.7462121621972098
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.7568241860085436
+    Attrib fixed acidity    3.9219216154061263
+    Attrib volatile acidity    0.3865922838003103
+    Attrib citric acid    0.6515967901442852
+    Attrib residual sugar    4.144510664408988
+    Attrib chlorides    -3.6397991592768553
+    Attrib free sulfur dioxide    0.8315007415991612
+    Attrib total sulfur dioxide    -0.1443185678575565
+    Attrib density    -8.69947994253348
+    Attrib pH    2.7451448199715918
+    Attrib sulphates    1.304080354185127
+    Attrib alcohol    -0.19463182672779553
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.241581824325107
+    Attrib fixed acidity    -0.08268599688799141
+    Attrib volatile acidity    3.827253819170739
+    Attrib citric acid    0.38269644725287116
+    Attrib residual sugar    -3.36515959038785
+    Attrib chlorides    -0.6661409311207336
+    Attrib free sulfur dioxide    -2.022169286163344
+    Attrib total sulfur dioxide    0.14646789580166283
+    Attrib density    3.9701008814097785
+    Attrib pH    -0.9105797690853953
+    Attrib sulphates    -0.29535979223798386
+    Attrib alcohol    -1.3492888765378381
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.88 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.5446
+Mean absolute error                      0.6257
+Root mean squared error                  0.8033
+Relative absolute error                 92.5303 %
+Root relative squared error             90.0279 %
+Total Number of Instances             3429     
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     wine-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0-V
+Instances:     unknown (yet). Reading incrementally
+Attributes:   12
+
+=== Summary ===
+
+Correlation coefficient                  0.5489
+Mean absolute error                      0.6205
+Root mean squared error                  0.7892
+Total Number of Instances             1469     
+

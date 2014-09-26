@@ -1,0 +1,132 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 5
+Relation:     wine-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0
+Instances:    3429
+Attributes:   12
+              fixed acidity
+              volatile acidity
+              citric acid
+              residual sugar
+              chlorides
+              free sulfur dioxide
+              total sulfur dioxide
+              density
+              pH
+              sulphates
+              alcohol
+              quality
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.14986068974553526
+    Node 1    0.7054092510940353
+    Node 2    0.8411318565636982
+    Node 3    -1.3347558699876851
+    Node 4    -0.7565706688583136
+    Node 5    -0.9619025264253676
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.389494599778156
+    Attrib fixed acidity    0.2185551936669605
+    Attrib volatile acidity    0.6892964104525479
+    Attrib citric acid    0.7771929554619103
+    Attrib residual sugar    2.5406729994148733
+    Attrib chlorides    -3.6527904147293144
+    Attrib free sulfur dioxide    2.145255825130906
+    Attrib total sulfur dioxide    1.7005128834007652
+    Attrib density    -3.751768578420366
+    Attrib pH    0.6049981934512565
+    Attrib sulphates    0.03765731546976263
+    Attrib alcohol    2.029078597870167
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.4388365851838822
+    Attrib fixed acidity    6.2732193844700435
+    Attrib volatile acidity    0.5516600195002558
+    Attrib citric acid    1.1054474938996963
+    Attrib residual sugar    4.54965138070721
+    Attrib chlorides    -3.5929396087343664
+    Attrib free sulfur dioxide    2.170819175541508
+    Attrib total sulfur dioxide    -3.3410334888841806
+    Attrib density    -8.419596445397053
+    Attrib pH    4.315406969738979
+    Attrib sulphates    2.3227964967971175
+    Attrib alcohol    -2.2809548509526234
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -5.062485610545388
+    Attrib fixed acidity    -3.0467552528319928
+    Attrib volatile acidity    0.7215951884075675
+    Attrib citric acid    -0.6193092426210672
+    Attrib residual sugar    -4.946635569122053
+    Attrib chlorides    -1.2402259334517352
+    Attrib free sulfur dioxide    1.7515143310501642
+    Attrib total sulfur dioxide    1.043104699735551
+    Attrib density    5.320961442111533
+    Attrib pH    -1.3468454126055296
+    Attrib sulphates    -0.923986504902145
+    Attrib alcohol    -0.19084466600512365
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    3.6153010540794956
+    Attrib fixed acidity    3.1815894683887747
+    Attrib volatile acidity    2.6639525206804078
+    Attrib citric acid    1.830807570566082
+    Attrib residual sugar    4.8645446087560344
+    Attrib chlorides    0.6539590327388053
+    Attrib free sulfur dioxide    1.7414722706466639
+    Attrib total sulfur dioxide    0.5490066710604187
+    Attrib density    -6.212239641883196
+    Attrib pH    2.5766556305042534
+    Attrib sulphates    1.0234335276662958
+    Attrib alcohol    -2.886742847883019
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -12.54600062347065
+    Attrib fixed acidity    2.2931891964610536
+    Attrib volatile acidity    1.1771262018959376
+    Attrib citric acid    -0.865561931116234
+    Attrib residual sugar    -1.4016680081125672
+    Attrib chlorides    0.41616681289009744
+    Attrib free sulfur dioxide    -13.219033647506718
+    Attrib total sulfur dioxide    -1.9123234089627597
+    Attrib density    2.923591017858945
+    Attrib pH    0.4485678295822074
+    Attrib sulphates    0.6385352493757842
+    Attrib alcohol    0.18981201999715522
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 4.02 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.5892
+Mean absolute error                      0.6421
+Root mean squared error                  0.8081
+Relative absolute error                 94.9542 %
+Root relative squared error             90.5571 %
+Total Number of Instances             3429     
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     wine-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P30.0-V
+Instances:     unknown (yet). Reading incrementally
+Attributes:   12
+
+=== Summary ===
+
+Correlation coefficient                  0.5799
+Mean absolute error                      0.6391
+Root mean squared error                  0.8008
+Total Number of Instances             1469     
+
